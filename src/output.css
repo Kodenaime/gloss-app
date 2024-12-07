@@ -546,3 +546,84 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.relative{
+  position: relative;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[180px\]{
+  width: 180px;
+}
+
+.max-w-\[1300px\]{
+  max-width: 1300px;
+}
+
+.max-w-\[1200px\]{
+  max-width: 1200px;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.p-8{
+  padding: 2rem;
+}
+
+.px-\[4\%\]{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.text-\[1\.1rem\]{
+  font-size: 1.1rem;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.background {
+  background-image: url("./assets/bg.webp");
+  /* background-position: center;
+    background-size: cover; */
+}
