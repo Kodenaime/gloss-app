@@ -1,0 +1,28 @@
+{
+    "title": "Why choose us?",
+    "heading": "Boost your website traffic",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae atque a repudiandae eligendi exercitationem voluptates repellendus nobis cum magnam sapiente, pariatur quidem. Dignissimos sed maiores praesentium ratione quos veritatis. Beatae, porro? Eveniet necessitatibus laudantium vel?",
+    "link": {
+        "text": "Explore Features",
+        "href": "#"
+    },
+    "features": [
+        {
+            "image": "cylinder.webp",
+            "title": "Discover & Explore Product"
+        },
+        {
+            "image": "hzz.webp",
+            "title": "Discover & Explore Product"
+        },
+        {
+            "image": "ring.webp",
+            "title": "Discover & Explore Product"
+        },
+        {
+            "image": "cursor.webp",
+            "title": "Discover & Explore Product"
+        }
+    ]
+}
+

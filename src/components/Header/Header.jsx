@@ -21,9 +21,9 @@ const Header = () => {
             </div> 
         </div>
 
-        <div className="">
+        <div className="w-full max-w-[1200px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center space-x-4">
             <div className="">
-                <h1>
+                <h1 className='text-[4.4rem] font-bold leading-snug mb-4'>
                     {
                         data.header.title.split(' ').map((word, index) => {
                             if (word === data.header.highlight) {
@@ -35,17 +35,19 @@ const Header = () => {
                         })
                     }
                 </h1>  
-                <p dangerouslySetInnerHTML={`{_html: data.description.text}`} />
-                <div className="">
+                {/* <p dangerouslySetInnerHTML={`{_html: data.description.text}`} /> */}
+                <p className='text-lg text-gray-700 leading-relaxed space-y-4 mb-6'>Extreact real business value from social media. Ensuring the best return <br /> 
+                  on investement for your bespoke SEO campaign requirement.</p>
+                <div className="flex items-center gap-7">
                     {
                         data.buttons.map((button, index) => (
-                            <a href={button.link} key={index}>{ button.text }</a>
+                            <a href={button.link} key={index} className='bg-main text-white rounded-md py-3 px-7 text-base transition-all duration-200 ease-linear hover:bg-blue'>{ button.text }</a>
                         ))
                     }
                 </div>
             </div>
             <div className="">
-                <img src={ image } alt="" className="w-[500px]" />
+                <img src={ image } alt="" className="w-full" />
             </div>
         </div>
      

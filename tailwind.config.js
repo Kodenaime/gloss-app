@@ -5,16 +5,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      white: "#ffffff",
-      black: "#000",
-      main: "#111731",
-      blue: "#63add7",
-      gray: "#708496",
-      grayLight: "#f6f6f6"
+      colors: {
+        white: "#ffffff",
+        black: "#000",
+        main: "#111731",
+        blue: "#63add7",
+        gray: "#708496",
+        grayLight: "#f6f6f6"
+      },
+      fontFamily: {
+        titi: ["Titillium Web", "serif"]
+      },
+      gridTemplateColumns: {
+        'auto-fit-18rem': 'repeat(auto-fit, minmax(18rem, 1fr))',
+      }
     },
-    fontFamily: {
-      titi: ["Titillium Web", "serif"]
-    }
+    
   },
   plugins: [],
 }
