@@ -1,0 +1,28 @@
+{
+    "metrics": [
+        {
+            "value": "523k",
+            "label": "Audience"
+        },
+        {
+            "value": "26m",
+            "label": "Views"
+        },
+        {
+            "value": "8.4k",
+            "label": "Comments"
+        },
+        {
+            "value": "210k",
+            "label": "Likes"
+        }
+    ],
+
+    "content": {
+        "Titler": "Social Metrics",
+        "heading": "Social Analyst Strategists",
+        "description": "We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your",
+        "linker": "Explore Features",
+        "hrefs": "#"
+    }
+}

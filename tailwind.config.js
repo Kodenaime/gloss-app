@@ -16,9 +16,9 @@ module.exports = {
       fontFamily: {
         titi: ["Titillium Web", "serif"]
       },
-      gridTemplateColumns: {
-        'auto-fit-18rem': 'repeat(auto-fit, minmax(18rem, 1fr))',
-      }
+      // gridTemplateColumns: {
+      //   'auto-fit-18rem': 'repeat(auto-fit, minmax(18rem, 1fr))',
+      // }
     },
     
   },

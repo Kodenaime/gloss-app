@@ -9,3 +9,9 @@
     /* background-position: center;
     background-size: cover; */
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}

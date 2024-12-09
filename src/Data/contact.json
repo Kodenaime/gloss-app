@@ -1,0 +1,30 @@
+{
+    "analysis": {
+        "image": {
+            "src": "analysis.png"
+        },
+        "title": "Analysis",
+        "head": "Get Free SEO Analysis",
+        "desc": "We're experts in marketing",
+        "form": {
+            "fields": [
+                {
+                    "type": "text",
+                    "placeholder": "Full Name"
+                },
+                {
+                    "type": "email",
+                    "placeholder": "Your Email"
+                },
+                {
+                    "type": "text",
+                    "placeholder": "Your Website"
+                }
+            ],
+            "buttons": {
+                "type": "submit",
+                "value": "Submit"
+            }
+        }
+    }
+}

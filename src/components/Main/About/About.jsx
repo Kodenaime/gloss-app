@@ -13,12 +13,12 @@ const About = () => {
                 <a className='bg-main text-white px-5 py-3 rounded-lg hover:bg-blue transition-all duration-200 ease-linear' href={ data.link.href }>{ data.link.text }</a>
             </div>
 
-            <div className="w-[50%] grid grid-cols-auto-fit-18rem gap-6">
+            <div className="w-[50%] grid">
                 {
                     data.features.map((item, index) => (
-                        <div key={index} className="">
-                            <img src={require(`../../../assets/${item.image}`)} alt={item.title} />
-                            <h3>{ item.title }</h3>
+                        <div className="p-5 rounded-3xl bg-grayLight"  key={index} >
+                            <img className='w-[130px]' src={require(`../../../assets/${item.image}`)} alt={item.title} />
+                            <h3 className='text-[1.5rem] font-semibold mt-5'>{ item.title }</h3>
                         </div>
                     ))
                 }
