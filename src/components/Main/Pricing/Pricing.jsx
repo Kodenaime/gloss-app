@@ -11,7 +11,15 @@ const Pricing = () => {
         </div>
 
         <div className="">
-
+            {
+                data.plans.map((item, index) => (
+                    <div className="" key={index}>
+                        <span>{ item.name }</span>
+                        <h4>{ item.price }</h4>
+                        
+                    </div>
+                ))
+            }
         </div>
 
     </div>
