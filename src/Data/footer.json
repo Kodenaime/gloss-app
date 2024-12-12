@@ -1,0 +1,47 @@
+{
+    "links": [
+        {
+            "title": "About", 
+            "href": "#"
+        },
+        {
+            "title": "Solution", 
+            "href": "#"
+        },
+        {
+            "title": "Pricing", 
+            "href": "#"
+        },
+        {
+            "title": "Blog", 
+            "href": "#"
+        },
+        {
+            "title": "Contact", 
+            "href": "#"
+        }
+    ],
+    "contacts": {
+        "phone": "+234 900 500 2000",
+        "email": "kode@glossapp.com"
+    },
+    "medias": [
+        {
+            "iconClass": "fa-brands fa-x-twitter",
+            "hrefs": "#"
+        },
+        {
+            "iconClass": "fa-brands fa-instagram",
+            "hrefs": "#"
+        },
+        {
+            "iconClass": "fa-brands fa-youtube",
+            "hrefs": "#"
+        },
+        {
+            "iconClass": "fa-brands fa-facebook",
+            "hrefs": "#"
+        }
+    ],
+    "copy": "glossapp 2024. All Rights Reserved."
+}
